@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
 }
 
 #root {
@@ -15,6 +20,12 @@
     margin: auto;
 }
 
+.App h1 {
+    background-color: white;
+    margin-top: 15px;
+    max-width: 800px;
+}
+
 .post {
     display: flex;
     padding: 10px;
@@ -23,6 +34,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 800px;
+    background-color: white;
 }
 
 .current_post {
@@ -33,6 +45,7 @@
     align-items: center;
     word-wrap: break-word;
     max-width: 800px;
+    background-color: white;
 }
 
 .current_post button {
@@ -53,6 +66,7 @@
 
 .form_btns button {
     margin-right: 4px;
+    background-color: white;
 }
 
 .nav_bar {
@@ -65,6 +79,8 @@
 }
 
 .nav_links {
+    font-size: 18px;
+    font-weight: 500;
     margin-left: auto;
 }
 

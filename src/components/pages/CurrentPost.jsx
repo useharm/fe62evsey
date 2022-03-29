@@ -13,8 +13,8 @@ const CurrentPost = () => {
     }
     return (
         <div className='current_post'>
-            <div><h1>Название задачи: </h1>{post.map(prev => <div>{prev.title}</div>)}</div>
-            <div><h1>Описание описание: </h1>{post.map(prev => <div>{prev.body}</div>)}</div>
+            <div><h2>Название задачи: </h2>{post.map(prev => <div>{prev.title}</div>)}</div>
+            <div><h2>Описание описание: </h2>{post.map(prev => <div>{prev.body}</div>)}</div>
             <MyButton onClick={() => back()}>Назад</MyButton>
         </div>
     )
