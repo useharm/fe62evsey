@@ -7,16 +7,9 @@ import { useDispatch } from 'react-redux';
 
 const PostItem = (props) => {
     const navigate = useNavigate();
-    /* function Postcurrent(e) {
-        e.preventDefault();
-        
-        navigate(`/posts/${props.post.id}`);
-        console.log(asd);
-
-    } */
-
     const dispatch = useDispatch();
     function removePost(post) {
+       
         dispatch(removePostAction(post.id));
     }
     function openPost(post) {

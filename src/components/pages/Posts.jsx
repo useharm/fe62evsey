@@ -1,8 +1,7 @@
-import React, { useState,  useEffect } from 'react';
+import React from 'react';
 import PostList from '../PostList'
 import PostForm from '../PostForm'
-import PostService from '../asyncActions/PostService';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 function Posts(props) {
 

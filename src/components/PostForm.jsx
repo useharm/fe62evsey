@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import MyButton from './UI/Button/MyButton';
 import MyInput from './UI/Input/MyInput';
 import { addPostAction } from './redux/postReducer';
