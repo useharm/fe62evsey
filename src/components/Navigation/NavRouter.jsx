@@ -11,7 +11,6 @@ const NavRouter = () => {
     <Routes>
       <Route path='about' element={<About />} />
       <Route exact path='posts' element={<Posts />} />
-      <Route exact path='' element={<Posts />} />
       <Route path='*' element={<Error />} />
       <Route exact path='posts/:id' element={<CurrentPost />}/>
       <Route path="/" element={<Navigate replace to="/posts" />} />
