@@ -9,10 +9,10 @@ const NavRouter = () => {
     return (
         <div>
     <Routes>
-      <Route path='about' element={<About />} />
-      <Route exact path='posts' element={<Posts />} />
+      <Route path='/about/' element={<About />} />
+      <Route exact path='/posts/' element={<Posts />} />
       <Route path='*' element={<Error />} />
-      <Route exact path='posts/:id' element={<CurrentPost />}/>
+      <Route exact path='/posts/:id' element={<CurrentPost />}/>
       <Route path="/" element={<Navigate replace to="/posts" />} />
     </Routes>
         </div>

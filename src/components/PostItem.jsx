@@ -14,7 +14,7 @@ const PostItem = (props) => {
     }
     function openPost(post) {
 
-        navigate(`/posts/${props.post.id}`);
+        navigate(`/posts/${props.number}`);
         dispatch(openPostAction(post));
     }
 
